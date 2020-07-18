@@ -69,5 +69,5 @@ fn decrement(semaphore: Arc<(Mutex<u16>, Condvar)>) {
 }
 
 fn add_latency() {
-    for _ in 0..100_000_00 {}
+    for _ in 0..10_000_000 {}
 }
