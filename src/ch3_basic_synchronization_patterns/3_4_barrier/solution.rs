@@ -37,6 +37,4 @@ fn main() {
     for t in threads {
         t.join().unwrap();
     }
-
-    //println!("Final Count is {}", count);
 }
