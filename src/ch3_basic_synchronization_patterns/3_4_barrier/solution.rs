@@ -1,8 +1,7 @@
 use std::sync::{Arc, Condvar, Mutex};
 use std::thread;
 
-// This solution is without Barrier<T>
-
+// This solution is without Barrier<count: usize>
 
 fn main() {
     println!("Main Thread started!");
